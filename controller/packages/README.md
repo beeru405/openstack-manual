@@ -1,3 +1,4 @@
+# packages
 #### OpenStack 2023.2 Bobcat for Ubuntu 22.04 LTS:
 ```
 add-apt-repository cloud-archive:bobcat
@@ -28,4 +29,13 @@ add-apt-repository cloud-archive:wallaby
 #### OpenStack Victoria for Ubuntu 20.04 LTS:
 ```
 add-apt-repository cloud-archive:victoria
+```
+
+# Sample Installation
+```
+apt install nova-compute -y
+```
+# Client Installation
+```
+apt install python3-openstackclient -y
 ```
